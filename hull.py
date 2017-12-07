@@ -45,7 +45,3 @@ def convexHull(points):
             res.pop()
         res.append(hull[i])
     return res
-
-# points = [(0, 3), (1, 1), (2, 2), (4, 4), (0, 0), (1, 2), (3, 1), (3, 3)]
-# hull = convexHull(points[:])
-# print(hull)
